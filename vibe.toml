@@ -1,0 +1,13 @@
+active_model = "ollama-llama3.2"
+
+[[providers]]
+name = "ollama"
+api_base = "http://localhost:11434/v1"
+api_key_env_var = ""
+api_style = "openai"
+
+[[models]]
+name = "llama3.2:latest"
+provider = "ollama"
+alias = "ollama-llama3.2"
+active = true

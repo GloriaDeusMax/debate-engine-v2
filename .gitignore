@@ -1,0 +1,17 @@
+# Ambiente virtual
+venv/
+vibe_venv/
+
+# Arquivos sensíveis (NUNCA subir para o GitHub)
+.env
+
+# Cache e logs
+__pycache__/
+*.pyc
+logs/
+cache/
+.pytest_cache/
+debug_tema.txt
+
+# Arquivos de exportação (opcional)
+projeto_completo.txt

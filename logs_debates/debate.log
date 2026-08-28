@@ -1,0 +1,1014 @@
+2026-08-24 07:53:09 - debate_engine.main - INFO - ==================================================
+2026-08-24 07:53:09 - debate_engine.main - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE
+2026-08-24 07:53:09 - debate_engine.main - INFO - ==================================================
+2026-08-24 07:53:09 - debate_engine.main - INFO - Verificando dependências...
+2026-08-24 07:53:09 - debate_engine.main - INFO - ✅ google-generativeai instalado
+2026-08-24 07:53:09 - debate_engine.main - INFO - ✅ openai instalado
+2026-08-24 07:53:09 - debate_engine.main - INFO - ✅ python-dotenv instalado
+2026-08-24 07:53:09 - debate_engine.main - INFO - Verificando chaves de API...
+2026-08-24 07:53:09 - debate_engine.main - INFO - Gemini: AQ.Ab8RN6I... (OK)
+2026-08-24 07:53:09 - debate_engine.main - INFO - Groq: gsk_y34YYf... (OK)
+2026-08-24 07:53:09 - debate_engine.main - INFO - OpenRouter: sk-or-v1-f... (OK)
+2026-08-24 07:53:09 - debate_engine.providers - INFO - Gemini provider criado
+2026-08-24 07:53:09 - debate_engine.providers - INFO - Groq provider criado
+2026-08-24 07:53:09 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 07:53:09 - debate_engine.main - INFO - Provedores ativos: gemini, groq
+2026-08-24 07:53:09 - debate_engine.main - INFO - ==================================================
+2026-08-24 07:54:39 - debate_engine.ui - INFO - 📄 Lido: main.py (135 linhas)
+2026-08-24 07:54:39 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (121 linhas)
+2026-08-24 07:54:39 - debate_engine.ui - INFO - 📄 Lido: ui.py (376 linhas)
+2026-08-24 07:54:39 - debate_engine.ui - INFO - 📄 Lido: providers.py (225 linhas)
+2026-08-24 07:54:39 - debate_engine.ui - INFO - 📊 Tema gerado com 12406 caracteres de código
+2026-08-24 07:54:39 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:54:39 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 07:54:41 - debate_engine.providers - INFO - Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 07:54:41 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:54:42 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:54:42 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 07:54:54 - debate_engine.providers - INFO - Gemini funcionou com: gemini-3.5-flash
+2026-08-24 07:54:54 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:54:56 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:54:56 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 07:54:56 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:54:57 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:54:57 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 07:54:57 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:54:59 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:54:59 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 07:54:59 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:55:00 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:55:00 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 07:55:00 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:55:23 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:55:23 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 07:55:23 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:55:24 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:55:24 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 07:55:24 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:56:14 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:56:14 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 07:56:14 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:56:15 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:56:15 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 07:56:15 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:56:49 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:56:49 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 07:56:49 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:56:50 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:56:50 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 07:56:50 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:57:18 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 07:57:18 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 07:57:18 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 07:57:19 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 07:57:19 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 07:57:19 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 07:57:30 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 261.1810555458069, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 08:04:07 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:04:07 - debate_engine.main - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE
+2026-08-24 08:04:07 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 08:04:07 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 08:04:07 - debate_engine.main - INFO - Iniciando orquestrador...
+2026-08-24 08:04:07 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 08:04:07 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 08:04:07 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 08:04:07 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 08:04:07 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 08:04:07 - debate_engine.main - INFO - Provedores ativos: gemini, groq
+2026-08-24 08:04:07 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:06:56 - debate_engine.ui - INFO - 📄 Lido: main.py (74 linhas)
+2026-08-24 08:06:56 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (121 linhas)
+2026-08-24 08:06:56 - debate_engine.ui - INFO - 📄 Lido: ui.py (376 linhas)
+2026-08-24 08:06:56 - debate_engine.ui - INFO - 📄 Lido: providers.py (313 linhas)
+2026-08-24 08:06:56 - debate_engine.ui - INFO - 📊 Tema gerado com 11407 caracteres de código
+2026-08-24 08:06:56 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:06:56 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:07:08 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:07:08 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:07:09 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:07:09 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:07:11 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:07:11 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:07:13 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:07:13 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 08:07:13 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:07:14 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:07:14 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 08:07:14 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:07:16 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:07:16 - debate_engine.providers - INFO - Gemini: resposta do cache
+2026-08-24 08:07:16 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:07:17 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:07:17 - debate_engine.providers - INFO - Groq: resposta do cache
+2026-08-24 08:07:17 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:09:10 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 302.9525320529938, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 08:14:17 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:14:17 - debate_engine.main - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE
+2026-08-24 08:14:17 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 08:14:17 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 08:14:17 - debate_engine.main - INFO - Iniciando orquestrador...
+2026-08-24 08:14:17 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 08:14:17 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 08:14:17 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 08:14:17 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 08:14:17 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 08:14:17 - debate_engine.main - INFO - Provedores ativos: gemini, groq
+2026-08-24 08:14:17 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:14:21 - debate_engine.ui - INFO - 📄 Lido: main.py (74 linhas)
+2026-08-24 08:14:21 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (129 linhas)
+2026-08-24 08:14:21 - debate_engine.ui - INFO - 📄 Lido: ui.py (376 linhas)
+2026-08-24 08:14:21 - debate_engine.ui - INFO - 📄 Lido: providers.py (335 linhas)
+2026-08-24 08:14:21 - debate_engine.ui - INFO - 📊 Tema gerado com 11524 caracteres de código
+2026-08-24 08:14:21 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:14:21 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:14:21 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:14:29 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:14:29 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:14:30 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:14:30 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:14:30 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:14:32 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:14:32 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:14:34 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:14:34 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:14:34 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:14:34 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:14:44 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:14:44 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:14:45 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:14:45 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:14:45 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:14:47 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:14:47 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:14:49 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:14:49 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:14:49 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:14:49 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:14:50 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:14:50 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:14:51 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:14:51 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:14:51 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:15:01 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:15:01 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:15:54 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:15:54 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:15:54 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:15:54 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:16:02 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:16:02 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:16:03 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:16:03 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:16:03 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:16:05 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:16:05 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:16:19 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 121.70084476470947, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 08:26:52 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:26:52 - debate_engine.main - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE
+2026-08-24 08:26:52 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:26:52 - debate_engine.main - INFO - Verificando ambiente...
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 08:26:52 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 08:26:52 - debate_engine.main - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 08:26:52 - debate_engine.main - INFO - Iniciando orquestrador...
+2026-08-24 08:26:52 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 08:26:52 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 08:26:52 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 08:26:52 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 08:26:52 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 08:26:52 - debate_engine.main - INFO - Provedores ativos: gemini, groq
+2026-08-24 08:26:52 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: main.py (168 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (129 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: ui.py (533 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: providers.py (335 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: config.py (95 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (175 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (46 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 08:26:55 - debate_engine.ui - INFO - 📊 Tema gerado com 33943 caracteres de código
+2026-08-24 08:26:55 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:26:55 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:26:55 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:27:06 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:27:06 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:27:07 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:27:07 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:27:07 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:27:09 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:27:09 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:27:11 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:27:11 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:27:11 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:27:11 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:27:12 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:27:12 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:27:13 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:27:13 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:27:13 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:27:14 - debate_engine.providers - WARNING - Gemini gemini-3.5-flash: rate limit, aguardando...
+2026-08-24 08:27:19 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.6-flash
+2026-08-24 08:27:56 - debate_engine.providers - WARNING - Gemini gemini-3.6-flash: serviço indisponível
+2026-08-24 08:27:56 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.7-flash
+2026-08-24 08:28:52 - debate_engine.providers - WARNING - Gemini gemini-3.7-flash: serviço indisponível
+2026-08-24 08:28:52 - debate_engine.orchestrator - WARNING - ⚠️ gemini retornou erro: [Erro Gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is...
+2026-08-24 08:28:54 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:28:54 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:28:54 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:28:54 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:28:56 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:28:56 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:28:57 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:28:57 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:28:57 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 08:28:57 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:34:16 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:34:16 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:34:16 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:34:16 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:34:27 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:34:27 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:34:28 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:34:28 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:34:28 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:34:30 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:34:30 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:37:25 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 633.2505633831024, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 08:47:01 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:47:01 - debate_engine.main - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.0
+2026-08-24 08:47:01 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:47:01 - debate_engine.main - INFO - Verificando ambiente...
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 08:47:01 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 08:47:01 - debate_engine.main - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 08:47:01 - debate_engine.main - INFO - Iniciando orquestrador...
+2026-08-24 08:47:01 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 08:47:01 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 08:47:01 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 08:47:01 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 08:47:01 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 08:47:01 - debate_engine.main - INFO - Provedores ativos: gemini, groq
+2026-08-24 08:47:01 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: main.py (206 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (162 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: ui.py (554 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: providers.py (335 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: config.py (95 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (177 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (46 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 08:47:07 - debate_engine.ui - INFO - 📊 Tema gerado com 34120 caracteres de código
+2026-08-24 08:47:07 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:47:07 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:47:07 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:47:09 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:47:09 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:47:10 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:47:10 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:47:10 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:47:23 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.5-flash
+2026-08-24 08:47:23 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:47:25 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:47:25 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:47:25 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:47:25 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:47:27 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:47:27 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:47:28 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:47:28 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:47:28 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:47:28 - debate_engine.providers - WARNING - Gemini gemini-3.5-flash: rate limit, aguardando...
+2026-08-24 08:47:33 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.6-flash
+2026-08-24 08:47:52 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.6-flash
+2026-08-24 08:47:52 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:47:54 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:47:54 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:47:54 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:47:54 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:47:55 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:47:55 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:47:56 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:47:56 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:47:56 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:47:56 - debate_engine.providers - WARNING - Gemini gemini-3.5-flash: rate limit, aguardando...
+2026-08-24 08:48:01 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.6-flash
+2026-08-24 08:48:23 - debate_engine.providers - INFO - ✅ Gemini funcionou com: gemini-3.6-flash
+2026-08-24 08:48:23 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:48:37 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 96.03394412994385, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 08:57:01 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:57:01 - debate_engine.main - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.0
+2026-08-24 08:57:01 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:57:01 - debate_engine.main - INFO - Verificando ambiente...
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 08:57:01 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 08:57:01 - debate_engine.main - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 08:57:01 - debate_engine.main - INFO - Iniciando orquestrador...
+2026-08-24 08:57:01 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 08:57:01 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 08:57:01 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 08:57:01 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 08:57:01 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 08:57:01 - debate_engine.main - INFO - Provedores ativos: gemini, groq
+2026-08-24 08:57:01 - debate_engine.main - INFO - ==================================================
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: main.py (139 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (154 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: ui.py (556 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: providers.py (337 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: config.py (95 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (179 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (46 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 08:57:04 - debate_engine.ui - INFO - 📊 Tema gerado com 34030 caracteres de código
+2026-08-24 08:57:04 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:57:04 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:57:04 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:57:06 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:57:06 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:57:07 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:57:07 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:57:07 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 08:57:08 - debate_engine.providers - WARNING - Gemini gemini-3.5-flash: rate limit, aguardando...
+2026-08-24 08:57:13 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.6-flash
+2026-08-24 08:57:14 - debate_engine.providers - WARNING - Gemini gemini-3.6-flash: rate limit, aguardando...
+2026-08-24 08:57:19 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.7-flash
+2026-08-24 08:57:21 - debate_engine.providers - WARNING - Gemini gemini-3.7-flash: serviço indisponível
+2026-08-24 08:57:21 - debate_engine.orchestrator - WARNING - ⚠️ gemini retornou erro: [Erro Gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is...
+2026-08-24 08:57:24 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:57:24 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:57:24 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:57:24 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 08:57:24 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:57:25 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:57:25 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:57:25 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:57:27 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:57:27 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:57:29 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 08:57:29 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 08:57:29 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 08:57:29 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 08:57:29 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 08:57:30 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 08:57:30 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 08:57:30 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 08:57:31 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 08:57:31 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 08:57:37 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 36.82081365585327, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 09:03:37 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 09:03:37 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 09:03:37 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 09:03:37 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 09:03:37 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 09:03:37 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq
+2026-08-24 09:03:37 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: main.py (68 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (158 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: ui.py (557 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: providers.py (337 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: config.py (100 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (179 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (46 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📄 Lido: bootstrap.py (79 linhas)
+2026-08-24 09:03:42 - debate_engine.ui - INFO - 📊 Tema gerado com 35376 caracteres de código
+2026-08-24 09:03:42 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 09:03:42 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 09:03:42 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 09:03:42 - debate_engine.providers - WARNING - Gemini gemini-3.5-flash: rate limit, aguardando...
+2026-08-24 09:03:47 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.6-flash
+2026-08-24 09:03:48 - debate_engine.providers - WARNING - Gemini gemini-3.6-flash: rate limit, aguardando...
+2026-08-24 09:03:53 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.7-flash
+2026-08-24 09:04:07 - debate_engine.providers - WARNING - Gemini gemini-3.7-flash: serviço indisponível
+2026-08-24 09:04:07 - debate_engine.orchestrator - WARNING - ⚠️ gemini retornou erro: [Erro Gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is...
+2026-08-24 09:04:08 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 09:04:08 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 09:04:08 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 09:04:10 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 09:04:10 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 09:04:12 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 09:04:12 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 09:04:12 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 09:04:12 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 09:04:12 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 09:04:13 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 09:04:13 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 09:04:13 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 09:04:15 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 09:04:15 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 09:04:17 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 09:04:17 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 09:04:17 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 09:04:17 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 09:04:18 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 09:04:18 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 09:04:19 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 09:04:19 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 09:04:19 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 09:04:19 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 09:06:53 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 196.10609126091003, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 09:13:07 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 09:13:07 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 09:13:07 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 09:13:07 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 09:13:07 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 09:13:07 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq
+2026-08-24 09:13:07 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:13:07 - debate_engine.orchestrator - INFO - 📂 Entrando no contexto do orquestrador
+2026-08-24 09:13:07 - debate_engine.ui - INFO - ✅ UI inicializada com sucesso
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: main.py (92 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (206 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: ui.py (627 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: providers.py (337 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: config.py (100 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (179 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (68 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📄 Lido: bootstrap.py (92 linhas)
+2026-08-24 09:13:10 - debate_engine.ui - INFO - 📊 Tema gerado com 36672 caracteres de código
+2026-08-24 09:13:10 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 09:13:10 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 09:13:10 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.5-flash
+2026-08-24 09:13:11 - debate_engine.providers - WARNING - Gemini gemini-3.5-flash: rate limit, aguardando...
+2026-08-24 09:13:16 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.6-flash
+2026-08-24 09:13:16 - debate_engine.providers - WARNING - Gemini gemini-3.6-flash: rate limit, aguardando...
+2026-08-24 09:13:21 - debate_engine.providers - INFO - Tentando Gemini: gemini-3.7-flash
+2026-08-24 09:13:43 - debate_engine.providers - WARNING - Gemini gemini-3.7-flash: serviço indisponível
+2026-08-24 09:13:43 - debate_engine.orchestrator - WARNING - ⚠️ gemini retornou erro: [Erro Gemini: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is...
+2026-08-24 09:13:44 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 09:13:44 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 09:13:44 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 09:13:47 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 09:13:47 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 09:13:49 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 09:13:49 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 09:13:49 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 09:13:49 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 09:13:50 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 09:13:50 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 09:13:51 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 09:13:51 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 09:13:51 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 09:13:51 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 09:13:53 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 09:13:53 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 09:13:53 - debate_engine.providers - INFO - Gemini: cache ignorado (usar_cache=False)
+2026-08-24 09:13:53 - debate_engine.providers - WARNING - Gemini: Circuit Breaker OPEN - pulando chamada
+2026-08-24 09:13:53 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 09:13:54 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 09:13:54 - debate_engine.providers - INFO - Groq: cache ignorado (usar_cache=False)
+2026-08-24 09:13:54 - debate_engine.providers - INFO - Tentando Groq: openai/gpt-oss-120b
+2026-08-24 09:13:55 - debate_engine.providers - INFO - ✅ Groq funcionou com: openai/gpt-oss-120b
+2026-08-24 09:13:55 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 09:14:17 - debate_engine.orchestrator - INFO - 🔄 Liberando recursos do orquestrador...
+2026-08-24 09:14:17 - debate_engine.orchestrator - INFO - ✅ Cache liberado
+2026-08-24 09:14:17 - debate_engine.orchestrator - INFO - ✅ Provedor gemini fechado
+2026-08-24 09:14:17 - debate_engine.orchestrator - INFO - ✅ Provedor groq fechado
+2026-08-24 09:14:17 - debate_engine.orchestrator - INFO - ✅ Orquestrador finalizado
+2026-08-24 09:14:17 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 70.30018305778503, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 09:16:51 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 09:16:51 - debate_engine.providers - INFO - Gemini provider criado com sucesso (chave: AQ.A...skYQ)
+2026-08-24 09:16:51 - debate_engine.providers - INFO - ✅ Gemini configurado com sucesso
+2026-08-24 09:16:51 - debate_engine.providers - INFO - Groq provider criado com sucesso (chave: gsk_...NE9s)
+2026-08-24 09:16:51 - debate_engine.providers - INFO - ✅ Groq configurado com sucesso
+2026-08-24 09:16:51 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq
+2026-08-24 09:16:51 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 09:16:51 - debate_engine.orchestrator - INFO - 📂 Entrando no contexto do orquestrador
+2026-08-24 09:16:51 - debate_engine.ui - INFO - ✅ UI inicializada com sucesso
+2026-08-24 09:29:53 - debate_engine.ui - INFO - Usuário cancelou a entrada do tema.
+2026-08-24 09:29:53 - debate_engine.ui - INFO - Interface encerrada pelo usuário.
+2026-08-24 09:29:53 - debate_engine.orchestrator - INFO - 🔄 Liberando recursos do orquestrador...
+2026-08-24 09:29:53 - debate_engine.orchestrator - INFO - ✅ Cache liberado
+2026-08-24 09:29:53 - debate_engine.orchestrator - INFO - ✅ Provedor gemini fechado
+2026-08-24 09:29:53 - debate_engine.orchestrator - INFO - ✅ Provedor groq fechado
+2026-08-24 09:29:53 - debate_engine.orchestrator - INFO - ✅ Orquestrador finalizado
+2026-08-24 09:29:53 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 782.0182547569275, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 21:17:04 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:17:04 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 21:17:04 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:17:04 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 21:17:04 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 21:17:04 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 21:17:06 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 21:17:06 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 21:17:06 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 21:17:06 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 21:17:06 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 21:17:06 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 21:17:06 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 21:17:06 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 21:18:56 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:18:56 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 21:18:56 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:18:56 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 21:18:56 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 21:18:56 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 21:18:56 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 21:18:57 - debate_engine.orchestrator - INFO - Agentes: gemini, groq, openrouter, nvidia
+2026-08-24 21:18:57 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq, openrouter, nvidia
+2026-08-24 21:18:57 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:18:57 - debate_engine.orchestrator - INFO - 📂 Entrando no contexto do orquestrador
+2026-08-24 21:18:57 - debate_engine.ui - INFO - ✅ UI inicializada com sucesso
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: main.py (92 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (219 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: ui.py (627 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: providers.py (337 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: config.py (100 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (179 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (68 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📄 Lido: bootstrap.py (92 linhas)
+2026-08-24 21:20:53 - debate_engine.ui - INFO - 📊 Tema gerado com 36720 caracteres de código
+2026-08-24 21:20:53 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:21:12 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 21:21:13 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:21:18 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:21:19 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:21:20 - debate_engine.orchestrator - WARNING - ⚠️ openrouter retornou erro: [Erro openrouter: Todos os modelos falharam]...
+2026-08-24 21:21:21 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:21:23 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:21:26 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 21:21:26 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:21:26 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:21:27 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:21:27 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 21:21:28 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:21:28 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:21:29 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:21:29 - debate_engine.orchestrator - WARNING - ⚠️ openrouter retornou erro: [Erro openrouter: Todos os modelos falharam]...
+2026-08-24 21:21:32 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 21:21:32 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:21:32 - debate_engine.orchestrator - WARNING - ⚠️ openrouter retornou erro: [Erro openrouter: Todos os modelos falharam]...
+2026-08-24 21:21:33 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:21:33 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:21:34 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:21:34 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 21:21:35 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:21:35 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - 🔄 Liberando recursos do orquestrador...
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - ✅ Cache liberado
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - ✅ Provedor gemini fechado
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - ✅ Provedor groq fechado
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - ✅ Provedor openrouter fechado
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - ✅ Provedor nvidia fechado
+2026-08-24 21:21:42 - debate_engine.orchestrator - INFO - ✅ Orquestrador finalizado
+2026-08-24 21:21:42 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 166.6765809059143, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 21:29:34 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:29:34 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 21:29:34 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:29:34 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 21:29:34 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 21:29:34 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 21:29:35 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 21:29:35 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 21:29:35 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 21:29:35 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 21:29:35 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 21:29:35 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 21:29:35 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 21:29:35 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 21:29:37 - debate_engine.orchestrator - INFO - Agentes: gemini, groq, openrouter, nvidia, ollama
+2026-08-24 21:29:37 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq, openrouter, nvidia, ollama
+2026-08-24 21:29:37 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:29:37 - debate_engine.orchestrator - INFO - 📂 Entrando no contexto do orquestrador
+2026-08-24 21:29:37 - debate_engine.ui - INFO - ✅ UI inicializada com sucesso
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: main.py (92 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: orchestrator.py (219 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: ui.py (627 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: providers.py (337 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: config.py (100 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: healthcheck.py (179 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: exceptions.py (68 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: interfaces.py (81 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: cache.py (79 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: circuit_breaker.py (111 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: metrics.py (93 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: prompt_builder.py (108 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: token_manager.py (86 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: rate_limiter.py (53 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: logger.py (79 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📄 Lido: bootstrap.py (92 linhas)
+2026-08-24 21:29:46 - debate_engine.ui - INFO - 📊 Tema gerado com 36720 caracteres de código
+2026-08-24 21:29:46 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:29:49 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:29:50 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:30:09 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 21:30:10 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:30:23 - debate_engine.orchestrator - INFO - ✅ openrouter respondeu com sucesso!
+2026-08-24 21:30:24 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:30:42 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:30:43 - debate_engine.orchestrator - INFO - 💭 ollama pensando...
+2026-08-24 21:34:17 - debate_engine.ui - INFO - Debate interrompido pelo usuário.
+2026-08-24 21:34:17 - debate_engine.ui - INFO - Interface encerrada pelo usuário.
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - 🔄 Liberando recursos do orquestrador...
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Cache liberado
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Provedor gemini fechado
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Provedor groq fechado
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Provedor openrouter fechado
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Provedor nvidia fechado
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Provedor ollama fechado
+2026-08-24 21:34:17 - debate_engine.orchestrator - INFO - ✅ Orquestrador finalizado
+2026-08-24 21:34:17 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 283.1459918022156, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 21:40:39 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:40:39 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 21:40:39 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:40:39 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 21:40:39 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 21:40:39 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 21:40:41 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 21:40:41 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 21:40:41 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 21:40:41 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 21:40:41 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 21:40:41 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 21:40:41 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 21:40:41 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 21:40:44 - debate_engine.orchestrator - INFO - Agentes: gemini, groq, openrouter, nvidia, ollama
+2026-08-24 21:40:44 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq, openrouter, nvidia, ollama
+2026-08-24 21:40:44 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:40:44 - debate_engine.orchestrator - INFO - 📂 Entrando no contexto do orquestrador
+2026-08-24 21:40:44 - debate_engine.ui - INFO - ✅ UI inicializada com sucesso
+2026-08-24 21:41:40 - debate_engine.ui - INFO - Usuário cancelou a entrada do tema.
+2026-08-24 21:41:40 - debate_engine.ui - INFO - Interface encerrada pelo usuário.
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - 🔄 Liberando recursos do orquestrador...
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Cache liberado
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Provedor gemini fechado
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Provedor groq fechado
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Provedor openrouter fechado
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Provedor nvidia fechado
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Provedor ollama fechado
+2026-08-24 21:41:40 - debate_engine.orchestrator - INFO - ✅ Orquestrador finalizado
+2026-08-24 21:41:40 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 60.73465156555176, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-24 21:41:42 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:41:42 - debate_engine.bootstrap - INFO - 🚀 INICIANDO 4KINGS DEBATE ENGINE v2.1.1
+2026-08-24 21:41:42 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:41:42 - debate_engine.bootstrap - INFO - Verificando ambiente...
+2026-08-24 21:41:42 - debate_engine.healthcheck - INFO - Verificando dependências...
+2026-08-24 21:41:42 - debate_engine.healthcheck - INFO - ✅ google-generativeai instalado
+2026-08-24 21:41:43 - debate_engine.healthcheck - INFO - ✅ openai instalado
+2026-08-24 21:41:43 - debate_engine.healthcheck - INFO - ✅ python-dotenv instalado
+2026-08-24 21:41:43 - debate_engine.healthcheck - INFO - Verificando chaves de API...
+2026-08-24 21:41:43 - debate_engine.healthcheck - INFO - Gemini: ✅ OK
+2026-08-24 21:41:43 - debate_engine.healthcheck - INFO - Groq: ✅ OK
+2026-08-24 21:41:43 - debate_engine.healthcheck - INFO - Openrouter: ✅ OK
+2026-08-24 21:41:43 - debate_engine.bootstrap - INFO - ✅ Ambiente verificado com sucesso
+2026-08-24 21:41:43 - debate_engine.bootstrap - INFO - Iniciando orquestrador...
+2026-08-24 21:41:45 - debate_engine.orchestrator - INFO - Agentes: gemini, groq, openrouter, nvidia, ollama
+2026-08-24 21:41:45 - debate_engine.bootstrap - INFO - Provedores ativos: gemini, groq, openrouter, nvidia, ollama
+2026-08-24 21:41:45 - debate_engine.bootstrap - INFO - ==================================================
+2026-08-24 21:41:45 - debate_engine.orchestrator - INFO - 📂 Entrando no contexto do orquestrador
+2026-08-24 21:41:45 - debate_engine.ui - INFO - ✅ UI inicializada com sucesso
+2026-08-24 21:41:56 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:42:06 - debate_engine.orchestrator - INFO - ✅ openrouter respondeu com sucesso!
+2026-08-24 21:42:07 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:42:15 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:42:16 - debate_engine.orchestrator - INFO - 💭 ollama pensando...
+2026-08-24 21:42:52 - debate_engine.orchestrator - INFO - ✅ ollama respondeu com sucesso!
+2026-08-24 21:42:53 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:42:54 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:42:55 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:43:06 - debate_engine.orchestrator - WARNING - ⚠️ gemini retornou erro: [Erro gemini: Todos os modelos falharam]...
+2026-08-24 21:43:10 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 21:43:10 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:43:10 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:43:11 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:43:11 - debate_engine.orchestrator - INFO - ✅ openrouter respondeu com sucesso!
+2026-08-24 21:43:12 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:43:12 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:43:13 - debate_engine.orchestrator - INFO - 💭 ollama pensando...
+2026-08-24 21:43:13 - debate_engine.orchestrator - INFO - ✅ ollama respondeu com sucesso!
+2026-08-24 21:43:14 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:43:24 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 21:43:28 - debate_engine.orchestrator - INFO - 🧹 Cache limpo para nova rodada
+2026-08-24 21:43:28 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-24 21:43:28 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-24 21:43:29 - debate_engine.orchestrator - INFO - 💭 ollama pensando...
+2026-08-24 21:43:29 - debate_engine.orchestrator - INFO - ✅ ollama respondeu com sucesso!
+2026-08-24 21:43:30 - debate_engine.orchestrator - INFO - 💭 openrouter pensando...
+2026-08-24 21:43:30 - debate_engine.orchestrator - INFO - ✅ openrouter respondeu com sucesso!
+2026-08-24 21:43:31 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-24 21:43:31 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-24 21:43:32 - debate_engine.orchestrator - INFO - 💭 nvidia pensando...
+2026-08-24 21:43:32 - debate_engine.orchestrator - INFO - ✅ nvidia respondeu com sucesso!
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - 🔄 Liberando recursos do orquestrador...
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Cache liberado
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Provedor gemini fechado
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Provedor groq fechado
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Provedor openrouter fechado
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Provedor nvidia fechado
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Provedor ollama fechado
+2026-08-24 21:44:29 - debate_engine.orchestrator - INFO - ✅ Orquestrador finalizado
+2026-08-24 21:44:29 - debate_engine.main - INFO - Métricas finais: {'total_debates': 0, 'total_api_calls': 0, 'total_errors': 0, 'error_rate': 0, 'uptime_seconds': 167.48627853393555, 'providers': {}, 'avg_response_time': {}, 'recent_debates': []}
+2026-08-28 14:26:33 - debate_engine.ui - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 14:26:33 - debate_engine.ui - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 14:26:33 - debate_engine.ui - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 14:26:33 - debate_engine.ui - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 15:35:42 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:39 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:39 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:39 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:39 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:42 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:42 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:42 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 16:59:42 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:05 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:05 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:05 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:01:05 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:49 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:49 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:49 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:49 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:49 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:05:49 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:05:49 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:05:50 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:05:50 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:05:50 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:05:50 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 17:05:50 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:05:50 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 17:05:53 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:53 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:53 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:05:53 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:33 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:33 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:33 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:33 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:33 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:07:33 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:07:34 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 17:07:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:07:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:03 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:31:03 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:31:04 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 17:31:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:31:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:18 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:18 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:18 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:40:18 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 17:40:21 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:21 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:21 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:40:21 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:47:02 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 17:47:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:47:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:20 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:20 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:20 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:20 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:48:20 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 17:48:21 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 17:48:24 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:24 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:24 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 17:48:24 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:37 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:37 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:00:37 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - ✅ gemini respondeu com sucesso!
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:00:38 - debate_engine.orchestrator - INFO - ✅ groq respondeu com sucesso!
+2026-08-28 18:00:41 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:41 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:41 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:00:41 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:03 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:16:03 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:16:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:16:06 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:33:58 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:33:58 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:33:58 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:33:58 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:33:58 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:33:59 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:33:59 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:33:59 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:33:59 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:33:59 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:34:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:34:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:34:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:34:02 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:47 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:47 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:47 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:47 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:48:47 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:48:48 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:48:48 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:48:48 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 18:48:48 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 18:48:48 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 18:48:51 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:51 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:51 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 18:48:51 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:29:57 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:29:57 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:29:57 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:29:57 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 19:29:57 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 19:29:57 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 19:29:57 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 19:29:57 - debate_engine.orchestrator - INFO - Agentes: gemini, groq
+2026-08-28 19:29:57 - debate_engine.orchestrator - INFO - 💭 gemini pensando...
+2026-08-28 19:29:58 - debate_engine.orchestrator - INFO - 💭 groq pensando...
+2026-08-28 19:30:01 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:30:01 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:30:01 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
+2026-08-28 19:30:01 - debate_engine.utils.gerar_tema_auto - WARNING - 🔒 Sanitização aplicada: valores sensíveis foram mascarados antes do envio ao LLM.
